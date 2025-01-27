@@ -3,34 +3,39 @@
   <head>
     <title>Projects</title>
     <link href="tokens.css" rel="stylesheet" />
-    <link href="projects.css" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Inter:ital,wght@0,200..900;1,200..900&display=swap"
       rel="stylesheet"
     />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
-    <!-- Hello, I'm a comment -->
+    <!-- Navbar -->
     <script type="module" src="navbar.mjs"></script>
+
+    <!-- Main Content -->
     <main>
-      <a class="button" href="index.html">Back</a>
-      <div class="container">
-        <h1>My Projects</h1>
-        <dl>
-          <b><dt>The Walt Disney Company</dt></b>
-          <dd>
+      <h1>My Projects</h1>
+      <section class="projects-list">
+        <article class="project-item">
+          <h2>The Walt Disney Company</h2>
+          <p>
             A notification engine for managing outages (NEMO), enhancing
-            communication between internal teams at Disney Central
-          </dd>
-          <b><dt>ClassPass</dt></b>
-          <dd>
+            communication between internal teams at Disney Central.
+          </p>
+        </article>
+        <article class="project-item">
+          <h2>ClassPass</h2>
+          <p>
             A/B test of machine learning model for determining the most optimal
-            time to send campaigns to users
-          </dd>
-        </dl>
-      </div>
+            time to send campaigns to users.
+          </p>
+        </article>
+      </section>
+      <a class="button" href="index.html">Back</a>
     </main>
   </body>
 </html>
