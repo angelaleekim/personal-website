@@ -1,0 +1,32 @@
+:root {
+  /* Colors */
+  --color-bg-primary: rgb(250 255 222);
+  --color-bg-secondary: rgb(229, 236, 187);
+  --color-text-primary: rgb(89 76 71);
+  --color-text-secondary: rgb(123 93 76);
+  --color-text-muted: rgb(63 63 63);
+  --color-button-bg: #35722a;
+  --color-button-text: white;
+  --color-link: rgb(95 98 75);
+
+  /* Spacing */
+  --spacing-small: 5px;
+  --spacing-medium: 10px;
+  --spacing-large: 20px;
+
+  /* Font sizes */
+  --font-size-small: 1rem;
+  --font-size-medium: 1.07em;
+  --font-size-large: 1.5rem;
+  --font-size-xlarge: 2em;
+
+  /* Font family */
+  --font-primary: "Inter", sans-serif;
+  --font-secondary: "Outfit", sans-serif;
+
+  /* Border radius */
+  --border-radius-small: 20px;
+
+  /* Layout */
+  --layout-max-width: 600px;
+}
