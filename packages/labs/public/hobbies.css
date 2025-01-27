@@ -112,6 +112,20 @@ nav {
   gap: var(--spacing-large);
 }
 
+nav a {
+  text-decoration: none;
+  font-size: var(--font-size-medium);
+  font-weight: 600;
+  font-family: var(--font-secondary);
+  color: var(--color-link);
+  padding: 10px 20px;
+  border-bottom: 3px solid transparent; /* Default no underline */
+}
+
+nav a.active {
+  border-bottom: 2px solid var(--color-bg-muted);
+}
+
 #logo {
   margin-left: var(--spacing-large);
   color: var(--color-button-bg);
