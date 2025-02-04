@@ -135,6 +135,10 @@ nav a.active {
   color: var(--color-button-bg);
 }
 
+#dark-mode-toggle {
+  margin-right: 2em;
+}
+
 #menu-toggle {
   display: none; /* Show only on mobile */
   font-size: 1.5rem;
@@ -246,11 +250,14 @@ ul {
     text-align: center;
   }
 
-  #menu-toggle {
+  #dark-mode-toggle {
     display: block;
     position: absolute;
-    top: 10px;
-    right: 20px;
+  }
+
+  #menu-toggle {
+    align-self: center;
+    display: block;
   }
 
   #links-container {

@@ -31,3 +31,13 @@
   /* Layout */
   --layout-max-width: 600px;
 }
+
+body.dark-mode {
+  --color-link: rgb(229, 236, 187);
+  --color-text-primary: #8bc84f;
+  --color-text-muted: #8bc84f;
+  --color-bg-primary: rgb(24, 23, 21);
+  --color-bg-secondary: rgb(30, 28, 26);
+  --color-text-secondary: #1e8900;
+  --color-button-bg: #387100;
+}
