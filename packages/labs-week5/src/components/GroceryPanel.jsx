@@ -61,9 +61,9 @@ export function GroceryPanel(props) {
   }
 
   return (
-    <div className="ml-sm">
+    <div className="p-4">
       <h1 className="text-xl font-bold">Groceries Prices Today</h1>
-      <label className="mb-4 flex gap-4">
+      <label className="my-4 flex gap-4">
         Get prices from:
         <select
           onChange={handleDropdownChange}

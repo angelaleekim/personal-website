@@ -34,7 +34,7 @@ function App() {
   };
 
   return (
-    <main className="p-5">
+    <main className="p-7">
       <div className="taskForm">
         <button
           onClick={() => setIsOpen(true)}
@@ -66,7 +66,6 @@ function App() {
           </ul>
         </section>
       </div>
-      n
       <GroceryPanel addTask={addTask} />
     </main>
   );
